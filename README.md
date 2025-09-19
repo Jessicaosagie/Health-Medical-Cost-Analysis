@@ -79,9 +79,42 @@ This project seeks to:
 
 ## 🗄 SQL Queries  
 
-### Query 1 – Average charges by smoker status  
+  
 ```sql
+---Average charges by smoker status---
 SELECT smoker, ROUND(AVG(charges),2) AS avg_charges
 FROM insurance
 GROUP BY smoker
 ORDER BY avg_charges DESC;
+```
+
+```sql
+---Charges by BMI category---
+SELECT 
+    CASE 
+        WHEN bmi < 18.5 THEN 'Underweight'
+        WHEN bmi BETWEEN 18.5 AND 24.9 THEN 'Normal'
+        WHEN bmi BETWEEN 25 AND 29.9 THEN 'Overweight'
+        ELSE 'Obese'
+    END AS bmi_category,
+    ROUND(AVG(charges),2) AS avg_charges
+FROM insurance
+GROUP BY bmi_category
+ORDER BY avg_charges DESC;
+```
+
+```sql
+---Regional average charges---
+SELECT region, ROUND(AVG(charges),2) AS avg_charges
+FROM insurance
+GROUP BY region
+ORDER BY avg_charges DESC;
+```
+
+---
+
+## 🏷️ Author  
+
+- **Name:** Jessica Osagie  
+- **Email:** jessica.a.osagie@gmail.com   
+- **LinkedIn:** [jessica-osagie](https://linkedin.com/in/jessica-osagie/)  
