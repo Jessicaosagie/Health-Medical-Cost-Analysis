@@ -66,15 +66,25 @@ This project seeks to:
 
 ## 📊 Visualizations  
 
-### 1. Pivot Table – Average Charges by Smoker Status  
+### Power BI Dashboard
+<img width="1158" height="652" alt="Screenshot 2025-09-20 192645" src="https://github.com/user-attachments/assets/90f00063-21f2-4be7-bd8a-5b985e2dc0bb" />
+
+### Excel Pivot Tables
+
+#### 1. Pivot Table – Average Charges by Smoker Status  
 <img width="166" height="76" alt="Screenshot 2025-09-20 161421" src="https://github.com/user-attachments/assets/1c1e35e1-2bdd-491e-a06a-7665383b01bc" />
 
-### 2. Pivot Table – Average Charges by BMI Category  
+#### 2. Pivot Table – Average Charges by BMI Category  
  
 <img width="128" height="86" alt="Screenshot 2025-09-20 161600" src="https://github.com/user-attachments/assets/7edf502f-2cf1-422e-8b69-29a2524360f0" />
 
-### 3. Pivot Table – Charges by Region  
-*(Bar chart comparing regions)*  
+#### 3. Pivot Table – Charges by Region  
+<img width="350" height="270" alt="Screenshot 2025-09-20 193522" src="https://github.com/user-attachments/assets/2bd3ef98-76e9-4a53-8068-352e92df4871" />
+
+## Chart
+
+  <img width="821" height="468" alt="Screenshot 2025-09-20 194652" src="https://github.com/user-attachments/assets/2ea37518-8560-4547-8ae5-91669b6c6e10" />
+
 
 ---
 
