@@ -67,10 +67,11 @@ This project seeks to:
 ## 📊 Visualizations  
 
 ### 1. Pivot Table – Average Charges by Smoker Status  
-*(Excel pivot showing smokers vs non-smokers)*  
+<img width="166" height="76" alt="Screenshot 2025-09-20 161421" src="https://github.com/user-attachments/assets/1c1e35e1-2bdd-491e-a06a-7665383b01bc" />
 
 ### 2. Pivot Table – Average Charges by BMI Category  
-*(Underweight, Normal, Overweight, Obese grouped)*  
+ 
+<img width="128" height="86" alt="Screenshot 2025-09-20 161600" src="https://github.com/user-attachments/assets/7edf502f-2cf1-422e-8b69-29a2524360f0" />
 
 ### 3. Pivot Table – Charges by Region  
 *(Bar chart comparing regions)*  
