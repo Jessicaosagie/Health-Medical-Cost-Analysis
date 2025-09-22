@@ -69,6 +69,8 @@ This project seeks to:
 ### Power BI Dashboard
 <img width="1158" height="652" alt="Screenshot 2025-09-20 192645" src="https://github.com/user-attachments/assets/90f00063-21f2-4be7-bd8a-5b985e2dc0bb" />
 
+<img width="1087" height="594" alt="image" src="https://github.com/user-attachments/assets/a7b356e8-eddc-43cf-bb1b-d53f59cc1447" />
+
 ### Excel Pivot Tables
 
 #### 1. Pivot Table – Average Charges by Smoker Status  
@@ -120,6 +122,25 @@ SELECT region, ROUND(AVG(charges),2) AS avg_charges
 FROM insurance
 GROUP BY region
 ORDER BY avg_charges DESC;
+```
+
+```sql
+SELECT 
+    CASE 
+        WHEN children > 0 THEN 'With Children'
+        ELSE 'No Children'
+    END AS HasChildren,
+    sex AS Gender,
+    AVG(charges) AS AvgCharges,
+    COUNT(*) AS PatientCount
+FROM insurance
+GROUP BY 
+    CASE 
+        WHEN children > 0 THEN 'With Children'
+        ELSE 'No Children'
+    END,
+    sex
+ORDER BY HasChildren, Gender;
 ```
 
 ---
