@@ -69,7 +69,8 @@ This project seeks to:
 ### Power BI Dashboard
 <img width="1158" height="652" alt="Screenshot 2025-09-20 192645" src="https://github.com/user-attachments/assets/90f00063-21f2-4be7-bd8a-5b985e2dc0bb" />
 
-<img width="1087" height="594" alt="image" src="https://github.com/user-attachments/assets/a7b356e8-eddc-43cf-bb1b-d53f59cc1447" />
+<img width="1012" height="461" alt="image" src="https://github.com/user-attachments/assets/5aefffd9-db83-4c19-9cab-dc0d91e21106" />
+
 
 ### Excel Pivot Tables
 
